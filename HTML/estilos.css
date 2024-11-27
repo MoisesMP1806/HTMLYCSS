@@ -1,0 +1,38 @@
+:root{
+    --turqueza: #81cac3;
+    --azul: #086781;
+    --grande: 3rem;
+    --mediano: 2rem;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    color: var(--azul);
+    background: var(--turqueza);
+    font-size: var(--grande);
+    font-weight: bold;
+    padding: 2rem 3rem;
+}
+
+h2{
+    font-size: var(--mediano);
+    color: var(--azul);
+}
+
+div,
+nav,
+main,
+footer,
+section,
+article,
+aside,
+ul{
+  padding: 0 .5rem; border: 1px solid gray;
+}
+
+section{ background: #ffffb2}
+article{ background: #ffa5007a}
+aside{ background: #b7ffff}
